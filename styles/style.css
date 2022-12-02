@@ -9,11 +9,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.page__color_dark-theme {
-  background-color: #1f1f1f;
-  color: white;
-}
-
 .header {
   margin: 0 auto;
   height: 100vh;
@@ -138,6 +133,7 @@
 }
 
 .section-subtitle {
+  position: relative;
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
@@ -145,6 +141,7 @@
   line-height: 34px;
   font-weight: normal;
   width: 60%;
+  z-index: 2;
 }
 
 .table {
@@ -233,8 +230,14 @@
   padding-bottom: 90px;
   overflow: hidden;
   background-color: #1f1f1f;
+}
+
+.section-title_theme_dark,
+.section-subtitle_theme_dark,
+.table_theme_dark {
   color: white;
 }
+
 
 .kaufman__triangle {
   background-image: url("../images/kaufman-triangle.svg");
@@ -290,6 +293,8 @@
 
 
 .footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 0;
   list-style-type: none;
   font-size: 18px;
   line-height: 30px;
