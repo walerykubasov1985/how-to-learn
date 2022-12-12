@@ -1,0 +1,26 @@
+@import url(../digits/section-title/section-title.css);
+@import url(../digits/section-subtitle/section-subtitle.css);
+@import url(../digits/table/table.css);
+@import url(../digits/table/__cell/table__cell.css);
+@import url(../digits/table/__heading/table__heading.css);
+@import url(../digits/table/__text/table__text.css);
+
+
+.digits {
+    display: flex;
+    margin: 100px auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

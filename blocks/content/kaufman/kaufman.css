@@ -1,0 +1,33 @@
+@import url(__triangle/kaufman__triangle.css);
+@import url(../kaufman/section-title/section-title.css);
+@import url(../kaufman/section-title/_theme/section-title_theme_dark.css);
+@import url(../kaufman/section-subtitle/section-subtitle.css);
+@import url(../kaufman/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../kaufman/table/table.css);
+@import url(../kaufman/table/_theme/table_theme_dark.css);
+@import url(../kaufman/table/__cell/table__cell.css);
+@import url(../kaufman/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../kaufman/table/__heading/table__heading.css);
+@import url(../kaufman/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../kaufman/table/__text/table__text.css);
+@import url(../kaufman//table/__text/_theme/table__text_theme_dark.css);
+@import url(../kaufman/rotation/rotation.css);
+
+
+.kaufman {
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    overflow: hidden;
+    background-color: #1f1f1f;
+}
+
+
+
+
+
+
+
+
+
+
